@@ -1,0 +1,56 @@
+
+html { font-size: 100px;}
+body { font-size: 20px; }
+*{ padding:0;margin:0 }
+ul { list-style: none }
+a { text-decoration: none;color:#000 }
+#global { width:100%;height:0.5rem;position: fixed;left:0;bottom: 0;font-size: 0.3rem;text-align: center;line-height: 0.5rem;}
+
+.tab { font-size: 0.16rem;position: fixed;top:0;left:0;width:100%;z-index: 1}
+.tab img { width:100% }
+.tab ul { height:0.48rem; }
+
+.tab li{ float:left ;width:25%;text-align: center;height:0.46rem;line-height:0.48rem;background: #fff;}
+.tab .active { color:#ce3d3e;border-bottom: 2px solid #ce3d3e }
+.tab h2 { height:0.56rem;background: #ce3d3e;padding:0 0.25rem;line-height: 0.56rem; }
+.tab h2 img { width:1.2rem;height:100%; }
+#tabinner { width:100% ;margin-top: 1.04rem;}
+.auto { width:100% }
+
+.tj { font-size: 24px;height:0.41rem;line-height:0.41rem;padding:1.5%;background: url("../images/aei.png") no-repeat;top:0;left:5px;padding-left:15%}
+.tj span { float:right; }
+.songlist { display: flex;flex-wrap: wrap;margin-bottom: 1rem; }
+.item { margin:1.5%;width:30%;font-size: 16px;position: relative }
+.item2 { margin:1.5%;width:47%;font-size: 16px;position: relative }
+.tips { position: absolute;top:0 ;left:0;background-color: rgba(133,137,149,0.25);color:#fff;width:90%;padding:0 5%;height:0.25rem;line-height:0.25rem }
+.tips span { float:right }
+
+.musiclist { padding:0.5rem;background: #eee}
+.musiclist li { border-bottom: 1px solid #ccc;padding:0.1rem ;position: relative }
+.musiclist li span{ position: absolute;display: block;width:30px;height:30px;right:0;top:15px;}
+.musiclist li span.yes { background: url("../images/gz_gray.png") no-repeat center;background-size: cover }
+.musiclist li span.no { background: url("../images/gz_red.png") no-repeat center;background-size: cover }
+
+
+.music { font-size: 20px; }
+.singerlist{ font-size: 16px;color:#ccc }
+
+#audio { width:100%;height:100%;background-color: rgba(232,240,255,0.5) }
+
+#btn { position: absolute;top:0;right:0;height:0.5rem;width:0.5rem;background-size: cover}
+
+.play  { background: url("../images/play.png") }
+.pause { background: url("../images/pause.png") }
+
+#prev { width:100%;height:0.5rem;line-height:0.5rem;position: fixed;top:0;left:0;background-color: rgba(95,152,35,0.6); }
+
+.songTips {padding:3%;background:#101010;margin-top: 0.5rem;color:#fff; height:1.5rem;width:100%}
+.songTips .left { position: relative;width:40%;float:left;height:90% }
+.songTips .left img { width:100%;float:left;height:100% }
+
+.songTips .right { float:left ;width:50%;padding:5%}
+.songTips .right p { font-size: 16px;  }
+
+.songTips .bot { height:0.4rem;line-height:0.4rem ;margin-top: 20px;}
+.songTips .bot p { float:left }
+.songTips .right img { width:0.4rem;height:0.4rem;border-radius: 50%;float:left;margin-right: 10px; }
